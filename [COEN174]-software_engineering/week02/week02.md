@@ -6,7 +6,7 @@
     - highly desirable: **recommended**
     - possible: **suggested**
 ￼
-## ANALYTICAL HIERARCHICAL PROCESS (AHP)
+## ANALYTICAL HIERARCHICAL PROCESS
 - more rigorous approach
 - **key idea**: compare components / requirements parallels
 
@@ -52,6 +52,7 @@
 - a user case describes how a “user” interacts with the system to accomplish some goal or perform some action
 - **example **:
     - **user case**:
+    
     ![user-case](img/[COEN174]week2a-diagram2.png)
     ![user-case](img/[COEN174]week2a-diagram3.png)
  
@@ -81,15 +82,18 @@
 - shows the dynamic behavior of the system (or part of the system)
 - looks much like a flowchart, but also has notation for concurrency
 - ex. **baking a cake **
+
 ![baking-a-cake1](img/[COEN174]week2c-diagram1.png)
 ![baking-a-cake2](img/[COEN174]week2c-diagram2.png)
 ￼
 - ex. **login **
+
 ![login](img/[COEN174]week2c-diagram3.png)
 
 ## SWIMLANE DIAGRAMS
 - activity diagrams but with responsibilities assigned
 - ex. **baking cake (again)**
+
 ![baking-a-cake3](img/[COEN174]week2c-diagram4.png)
 
 ## DATA-BASED MODEL
@@ -103,15 +107,19 @@
 - models how data is transformed as it flows through the system
 - decomposed hierarchically
 - ex. **a compiler **
+
 ![dfd-compiler](img/[COEN174]week2c-diagram5.png)
 
 ## ENTITY-RELATIONSHIP DIAGRAM (ERD)
 - entities = objects
 - ex: **generic one**
+
 ![erd1](img/[COEN174]week2c-diagram6.png)￼
 
 - ex: **book**
+
 ![erd2](img/[COEN174]week2c-diagram7.png)
 
 - ex: **school **
+
 ![erd3](img/[COEN174]week2c-diagram8.png)
