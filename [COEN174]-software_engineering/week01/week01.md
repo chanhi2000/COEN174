@@ -23,17 +23,17 @@
 - usually be answered as true / false
 - usually stated as "*the system will …* "
 
-## NON-FUNCTIONAL REQUIREMENTS <a id="nfr"></a>
+## NON-FUNCTIONAL REQUIREMENTS
 - define the manner in which the functional requirements need to be achieved
 - usually assumed by a degree of satisfaction
 - usually stated as "*the system will be …* “
 
 ## DESIGN CONSTRAINTS
-- a lot like [NFR](#nfr)
+- a lot like [NFR](#non-functional-requirements)
 - constraints the solution:
-> e.g.  "must be written in Java" -> DC
-> e.g.  "must be web-based"       -> DC 
-> e.g.  "system msb be portable"  -> NFR
+    - e.g.  "must be written in Java" -> DC
+    - e.g.  "must be web-based"       -> DC 
+    - e.g.  "system msb be portable"  -> NFR
 
 ## HOW IS A SYSTEM DIFFERENT FROM A PROGRAM?
 - complexity of actual code
@@ -86,9 +86,9 @@
 - The process of determining requirements is called “REQUIREMENT ENGINEERING”.
 
 ## REQUIREMENT ENGINEERING
-- Talk to the customer about what they want
-- End up with a formal document they can sign off.
-- How do we get from one to the other: we use a PROCESS.
+- talk to the customer about what they want
+- end up with a formal document they can sign off.
+- how do we get from one to the other: we use a PROCESS.
 
 ## (SOFTWARE) PROCESS
 - A framework used to guide system development
@@ -117,7 +117,7 @@
 ## REQUIREMENT ELICITATION
 - customers involved? **YES**
 - talk to the customers about what they want
-- focus on what (requirement), not how (design)
+- focus on **what** (requirement), not **how** (design)
 
 ## HIGH-LEVEL REQUIREMENT
 - deal with business concerns
