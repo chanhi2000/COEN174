@@ -1,11 +1,11 @@
 [COEN174] week02
 
-# PRIORITIZING REQUIREMENTS
+## PRIORITIZING REQUIREMENTS
 - **ex**:
-    - absolutely necessary: **critical**
-    - highly desirable: **recommended**
-    - possible: **suggested**
-￼
+    - absolutely necessary: ** *critical* **
+    - highly desirable: ** *recommended* **
+    - possible: ** *suggested* **
+
 ## ANALYTICAL HIERARCHICAL PROCESS
 - more rigorous approach
 - **key idea**: compare components / requirements parallels
@@ -31,8 +31,8 @@
 - customer involved? **NO**
 - this is what customer will sign OFF on
 - in some organizations
-    - **requirement documentation [HI]**: written more for customers
-    - **requirement specification [LO]**: written more for technical folks
+    - **requirement documentation [HI]**: written more for **customers**
+    - **requirement specification [LO]**: written more for **technical folks**
     - some specification languages are even executable
 
 ## REQUIREMENT AGREEMENT
@@ -41,19 +41,20 @@
 
 ## ANALYSIS MODELS
 - "formal model" is used to write up the results of analysis
-- [SA]: **s**tructured **a**nalysis (1960s)
-- [O-OA]: unified modeling language (1990s)
+- [SA]: **structured analysis** (1960s)
+- [O-OA]: **unified modeling language** (1990s)
 - how do [SA] and [O-OA] differ?
     - structured analysis considers data and operations separately  whereas **o**bject-**o**riented **a**nalysis considers them together
 
 ## SCENARIO-BASED MODEL
 - user satisfaction is key to the success of a system
 - therefore, models involving the user are usually constructed first
-- a user case describes how a “user” interacts with the system to accomplish some goal or perform some action
+- **a user case** describes how a “user” interacts with the system to accomplish some goal or perform some action
 - **example **:
     - **user case**:
     
     ![user-case](img/[COEN174]week2a-diagram2.png)
+    
     ![user-case](img/[COEN174]week2a-diagram3.png)
  
 - The diagram itself is not enough
