@@ -64,7 +64,7 @@
 - What language(s) will be used?
 - Is the DB required?
 - Is it networked?
-- Is a [configureation management system](https://en.m.wikipedia.org/wiki/Configuration_management) required?
+- Is a [configureation management system](https://en.m.wikipedia.org/wiki/Configuration_management){:target="_blank"} required?
 
 ## NON-ENGINEERING ASPECTS
 - more people and resources to coordinate
