@@ -97,15 +97,15 @@
     - sequencing of tasks
     - I / O
     - pre-conditions / post-conditions
-- i.e.
+- i.e. **classical phase of engineering**
 ![classical phase of engineering](img/[COEN174]week1b-diagram1.png)
 - i.e. **requirements process**
 ![requirements process](img/[COEN174]week1b-diagram2.png)
-    - *elicitation*: talk to the customers about what they want
-    - *analysis*: go back and tabulate, sort, prioritise (i.e. analyse)
-    - *definition*: write it up informally
-    - *prototyping*: build a mock-up to get feedback
-    - *review*: check it over
+    - **elicitation**: talk to the customers about what they want
+    - **analysis**: go back and tabulate, sort, prioritise (i.e. analyse)
+    - **definition**: write it up informally
+    - **prototyping**: build a mock-up to get feedback
+    - **review**: check it over
 
 ## WHY DO WE NEED REQUIREMENTS?
 - for acceptance testing
@@ -114,7 +114,7 @@
 - scheduling the project
 
 ## REQUIREMENT ELICITATION
-- customers involved? YES
+- customers involved? **YES**
 - talk to the customers about what they want
 - focus on what (requirement), not how (design)
 
@@ -129,8 +129,8 @@
 
 ## LOW-LEVEL REQUIREMENT
 - more technical than HIGH-LEVEL REQUIREMENT
-￼![low-level requirement](img/[COEN174]week1c-diagram1.png)
-##### DIFFERENT SYSTEM = DIFFERENT REQUIREMENTS
+![low-level requirement](img/[COEN174]week1c-diagram1.png)
+> DIFFERENT SYSTEM = DIFFERENT REQUIREMENTS
 - **physical environment**
     - Where will system run?: One location? / Several?
 - **interfaces**
@@ -146,9 +146,9 @@
     - Format? Persistent? Accuracy?
 - **Resources**
     - What equipment and personnel are necessary?
-- Security
+- **Security**
     - Must access be controlled? data backed up?
-- Quality Assurance
+- **Quality Assurance**
     - Will the system detect errors? Mean Time to Failure?
 
 ## REQUIREMENT ANALYSIS
