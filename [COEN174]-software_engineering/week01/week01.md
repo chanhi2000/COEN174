@@ -99,6 +99,7 @@
     - pre-conditions / post-conditions
 - i.e. **classical phase of engineering**
 ![classical phase of engineering](img/[COEN174]week1b-diagram1.png)
+
 - i.e. **requirements process**
 ![requirements process](img/[COEN174]week1b-diagram2.png)
     - **elicitation**: talk to the customers about what they want
@@ -120,17 +121,19 @@
 
 ## HIGH-LEVEL REQUIREMENT
 - deal with business concerns
-- *communication skills* are important; many {RE} have business background
-- *business opportunity*: need for s/w
-- *justification*: how well s/w save/make money?
-- *scope*: how much s/w will do?
-- *constraints*: schedule/cost 
-- *user characteristics*: who is using the system?
+- **communication skills** are important; many {RE} have business background
+- **business opportunity**: need for s/w
+- **justification**: how well s/w save/make money?
+- **scope**: how much s/w will do?
+- **constraints**: schedule/cost 
+- **user characteristics**: who is using the system?
 
 ## LOW-LEVEL REQUIREMENT
 - more technical than HIGH-LEVEL REQUIREMENT
+
 ![low-level requirement](img/[COEN174]week1c-diagram1.png)
 > DIFFERENT SYSTEM = DIFFERENT REQUIREMENTS
+
 - **physical environment**
     - Where will system run?: One location? / Several?
 - **interfaces**
