@@ -2,20 +2,20 @@
 
 ## PRIORITIZING REQUIREMENTS
 - **ex**:
-    - absolutely necessary: ** *critical* **
-    - highly desirable: ** *recommended* **
-    - possible: ** *suggested* **
+    - absolutely necessary: **critical**
+    - highly desirable: **recommended**
+    - possible: **suggested**
 
 ## ANALYTICAL HIERARCHICAL PROCESS
 - more rigorous approach
 - **key idea**: compare components / requirements parallels
 
-## EXAMPLE (AHP)
+## EXAMPLE ([AHP](#analytical-hierarchical-process))
 - 3 major requirements (R1, R2, R3)
 - R1 is 4x as important as R2
 - R1 is 2x as important as R3
 - R3 is 2x as important as R2
-- What is the overall importance of each? [on MIDTERM]
+- *What is the overall importance of each?* [on MIDTERM]
 ![ahp-example](img/[COEN174]week2a-diagram1.png)
 
 ## REQUIREMENT DEFINITIONS, PROTOTYPING, REVIEWS
