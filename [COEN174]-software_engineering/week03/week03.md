@@ -29,7 +29,6 @@
 - design is the process of **taking a problem** and **coming up with a solution** that meets established professional practices.
 > **engineering** = putting science into practice paying attention to efficiency, economy, and safety. 
 
- 
 
 ## LEVELS OF DESIGN
 - **architectural design**
@@ -64,6 +63,7 @@
 
 ![ex-dca1](img/[COEN174]week3b-diagram1.png)
 > **repository**: CLIENTs are active; DATA are passive
+
 > **blackboard**: CLIENTs are passive; DATA are active
 
 - **COMPONENTS**: clients & data store
