@@ -64,20 +64,31 @@
 - we also need **narrative**
     - **name**
     - **actor(s)**
-    - **precondition**
-    - **postcondition**
+    - **pre-condition**
+    - **post-condition**
     - **goal**
     - **steps** in a typical system
     - **exceptions**
 
+
 - **example**:
-    - **name**: login 
-    - **precondition**: none 
-    - **postcondition**: user authenticated
-    -  **goal**: authenticate user 
-    - **steps**:     
-        1. enter username 
-        2. enter password 
-        3. information is submitted 
-        4. user taken to landing screen 
-    - **exceptions**: username/password incorrect -> retry
+    ```
+    - name: login
+    - pre-condition: none
+    - post-condition: user authenticated
+    - goal: authenticate user
+    - steps:    
+        1. enter username
+        2. enter password
+        3. information is submitted
+        4. user taken to landing screen
+    - exceptions: username/password incorrect -> retry
+    ```
+
+## ACTIVITY DIAGRAMS
+- shows the dynamic behavior of the system (or part of the system)
+- looks much like a flowchart, but also has notation for concurrency
+- ex. **baking a cake**
+
+![baking-a-cake1](img/[COEN174]week2c-diagram1.png)
+![baking-a-cake2](img/[COEN174]week2c-diagram2.png)
