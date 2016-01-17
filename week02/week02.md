@@ -88,7 +88,7 @@
 ## ACTIVITY DIAGRAMS
 - shows the dynamic behavior of the system (or part of the system)
 - looks much like a flowchart, but also has notation for concurrency
-- ####**example**: baking a cake
+- #### **example**: baking a cake
 ![baking-a-cake1](img/[COEN174]week2c-diagram1.png)
 ![baking-a-cake2](img/[COEN174]week2c-diagram2.png)
 - ####**example**: login
@@ -96,18 +96,29 @@
 
 ## SWIMLANE DIAGRAMS
 - activity diagrams but with responsibilities assigned
-- ####**example**: baking a cake (again)
+- #### **example**: baking a cake (again)
 ![baking-a-cake3](img/[COEN174]week2c-diagram4.png)
 
 ## DATA-BASED MODEL
 - identify data and their relationships
 - a data object is simply composite information
-- **example**:
+- #### **example**:
     - **object** = person
     - **attribute** = first name, last name
 
 ## DATA-FLOW DIAGRAM (DFD)
 - models how data is transformed as it flows through the system
 - decomposed hierarchically
-- **example:** a compiler
+- #### **example:** a compiler
 ![dfd-compiler](img/[COEN174]week2c-diagram5.png)
+
+## ENTITY-RELATIONSHIP DIAGRAM (ERD)
+- entities = objects
+- #### **example**: generic one
+![erd1](img/[COEN174]week2c-diagram6.png)
+
+- #### **example**: book
+![erd2](img/[COEN174]week2c-diagram7.png)
+
+- #### **example**: school
+![erd3](img/[COEN174]week2c-diagram8.png)
