@@ -42,6 +42,7 @@
 - customer involved? **YES**
 - customer signs, marking end of requirement engineering
 
+
 ## ANALYSIS MODELS
 - "formal model" is used to write up the results of analysis
 - [SA]: **structured analysis** (1960s)
