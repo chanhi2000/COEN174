@@ -88,7 +88,12 @@
 ## ACTIVITY DIAGRAMS
 - shows the dynamic behavior of the system (or part of the system)
 - looks much like a flowchart, but also has notation for concurrency
-- ex. **baking a cake**
-
+- ####**example**: baking a cake
 ![baking-a-cake1](img/[COEN174]week2c-diagram1.png)
 ![baking-a-cake2](img/[COEN174]week2c-diagram2.png)
+- ####**example**: login
+![login](img/[COEN174]week2c-diagram3.png)
+
+## SWIMLANE DIAGRAMS
+- activity diagrams but with responsibilities assigned
+- ex. **baking cake (again)**
