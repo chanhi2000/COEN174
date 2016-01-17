@@ -96,4 +96,18 @@
 
 ## SWIMLANE DIAGRAMS
 - activity diagrams but with responsibilities assigned
-- ex. **baking cake (again)**
+- ####**example**: baking a cake (again)
+![baking-a-cake3](img/[COEN174]week2c-diagram4.png)
+
+## DATA-BASED MODEL
+- identify data and their relationships
+- a data object is simply composite information
+- **example**:
+    - **object** = person
+    - **attribute** = first name, last name
+
+## DATA-FLOW DIAGRAM (DFD)
+- models how data is transformed as it flows through the system
+- decomposed hierarchically
+- **example:** a compiler
+![dfd-compiler](img/[COEN174]week2c-diagram5.png)
