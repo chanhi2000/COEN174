@@ -23,11 +23,26 @@
 - In the future, we might need to modify *G* to *G’*. Also, we might add a new component C that keeps track of the number of vertices in *V*.
 - ###### SOLUTION #1: Encapsulation
 ![soln1](img/[COEN174]week4a-diagram1.png)
-access to *V* and *E* is not allowed; accesses  must go through *G*
+> access to *V* and *E* is not allowed; accesses  must go through *G*
+    
     - [–] adding *C* requires modifying *G*
     - [+] modifying *G* to *G’* 
     - [+] reuse of *V* and *E*
-- ###### * SOLUTION#2: Hardwiring
-    - [–] adding C requires modifying V
-    - [–] extending G to G’ is hard
-    - [–] reuse of V and E is poor
+
+- ###### SOLUTION#2: Hardwiring
+![soln2](img/[COEN174]week4a-diagram2.png)
+    - [–] adding *C* requires modifying *V*
+    - [–] extending *G* to *G’* is hard
+    - [–] reuse of *V* and *E* is poor
+
+- ###### SOLUTION#3 Events
+![soln3](img/[COEN174]week4a-diagram3.png)
+    - [+] reuse of *V* and *E* is good
+    - [+] adding *C* is easy (no modification required)
+    - [–] modifying *G* to *G’* is hard (it’s distributed still)
+
+* ###### SOLUTION#4: Mediator
+![soln4](img/[COEN174]week4a-diagram4.png)
+    - [+] reuse of *V* and *E* is good
+    - [+] easy to add *C*
+    - [+] extending *G* to *G’* is easy (all-in-one place)
