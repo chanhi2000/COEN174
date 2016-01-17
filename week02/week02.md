@@ -45,7 +45,27 @@
 
 ## ANALYSIS MODELS
 - "formal model" is used to write up the results of analysis
-- [SA]: **structured analysis** (1960s)
-- [O-OA]: **unified modeling language** (1990s)
-- how do [SA] and [O-OA] differ?
-    - structured analysis considers data and operations separately whereas **o**bject-**o**riented **a**nalysis considers them together
+- #### structured analysis (1960s)
+- #### unified modeling language (1990s)
+- **difference**:
+    - **structured analysis** considers data and operations separately whereas **object-oriented analysis** considers them together
+
+#### SCENARIO-BASED MODEL
+- user satisfaction is key to the success of a system
+- therefore, models involving the user are usually constructed first
+- **a user case** describes how a “user” interacts with the system to accomplish some goal or perform some action
+- **example**:
+- **user case**:
+    
+    ![user-case](img/[COEN174]week2a-diagram2.png)
+    
+    ![user-case](img/[COEN174]week2a-diagram3.png)
+- The diagram itself is not enough
+- we also need **narrative**
+    - **name**
+    - **actor(s)**
+    - **precondition**
+    - **postcondition**
+    - **goal**
+    - **steps** in a typical system
+    - **exceptions**
