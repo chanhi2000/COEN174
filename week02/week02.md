@@ -37,6 +37,7 @@
     - **requirement specification [LO]**: written more for **technical folks**
     - some specification languages are even executable
 
+
 ## REQUIREMENT AGREEMENT
 - customer involved? **YES**
 - customer signs, marking end of requirement engineering
