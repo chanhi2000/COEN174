@@ -54,8 +54,7 @@
 - user satisfaction is key to the success of a system
 - therefore, models involving the user are usually constructed first
 - **a user case** describes how a “user” interacts with the system to accomplish some goal or perform some action
-- **example**:
-- **user case**:
+- #### **example**: user case diagram
     
     ![user-case](img/[COEN174]week2a-diagram2.png)
     
