@@ -1,5 +1,4 @@
 # **week02**
-
 ## PRIORITIZING REQUIREMENTS
 - **ex**:
     - absolutely necessary: **critical**
