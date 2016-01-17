@@ -5,10 +5,10 @@
     - highly desirable: **recommended**
     - possible: **suggested**
 
-
 ## ANALYTICAL HIERARCHICAL PROCESS
 - more rigorous approach
 - **key idea**: compare components / requirements parallels
+
 
 #### EXAMPLE: [AHP](#analytical-hierarchical-process)
 - 3 major requirements (R1, R2, R3)
@@ -18,6 +18,7 @@
 - **Q**: *What is the overall importance of each?* [on MIDTERM]
 ![ahp-example](img/[COEN174]week2a-diagram1.png)
 
+
 ## REQUIREMENT: DEFINITIONS, PROTOTYPING, REVIEWS
 - customer involved? **YES**
 - definition involves writing up the requirements
@@ -26,6 +27,7 @@
     - **low-fidelity**: papers/cards
     - **high-fidelity**: mockup in a browser / Visual Basic
 - results go through a review
+
 
 ## REQUIREMENT SPECIFICATION
 - customer involved? **NO**
