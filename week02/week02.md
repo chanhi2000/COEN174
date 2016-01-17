@@ -69,3 +69,15 @@
     - **goal**
     - **steps** in a typical system
     - **exceptions**
+
+- **example**:
+    - **name**: login 
+    - **precondition**: none 
+    - **postcondition**: user authenticated
+    -  **goal**: authenticate user 
+    - **steps**:     
+        1. enter username 
+        2. enter password 
+        3. information is submitted 
+        4. user taken to landing screen 
+    - **exceptions**: username/password incorrect -> retry
