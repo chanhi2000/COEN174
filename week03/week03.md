@@ -73,12 +73,12 @@
 - **GOOD**: easy for clients to come and go
 - **BAD**: single point of failure
 
-![ex-dca2](img/[COEN174]week3b-diagram2.png)￼
+![ex-dca2](img/[COEN174]week3b-diagram2.png)
 
 ## DATA-FLOW ARCHITECTURE 
 - **test ex**. UNIX SHELL
 
-![ex-unix](img/[COEN174]week3b-diagram3.png)￼
+![ex-unix](img/[COEN174]week3b-diagram3.png)
 
 ```bash
 $  grep pattern file |grep pattern | sort| l less &
@@ -93,7 +93,7 @@ $  grep pattern file |grep pattern | sort| l less &
     - is this needle?
 - **BAD**:
     - translator filter needed if filters do not speak same language
-    - NOT GOOD for incremental updates  (why? this style takes a transformational view/approach to date
+    - NOT GOOD for incremental updates (why? this style takes a transformational view/approach to date
 
 
 ## LAYERED ARCHITECTURES
@@ -101,17 +101,17 @@ $  grep pattern file |grep pattern | sort| l less &
 - **lower layers** are closer to the machine
 - **higher layers** provide more abstraction
 
-![ex-os](img/[COEN174]week3c-diagram1.png)￼￼￼
+![ex-os](img/[COEN174]week3c-diagram1.png)
 
 - **ex**. OS
 
-![ex-os](img/[COEN174]week3c-diagram2.png)￼￼
+![ex-os](img/[COEN174]week3c-diagram2.png)
 
 
 - **ex**. ISO/OSI 
 
 
-![ex-iso](img/[COEN174]week3c-diagram3.png)￼
+![ex-iso](img/[COEN174]week3c-diagram3.png)
 
 
 - **COMPONENTS**: LAYERS
@@ -122,7 +122,7 @@ $  grep pattern file |grep pattern | sort| l less &
 
 ## CALL AND RETURN
 
-![ex-call-and-return](img/[COEN174]week3c-diagram4.png)￼
+![ex-call-and-return](img/[COEN174]week3c-diagram4.png)
 
 - **COMPONENTS**: functions
 - **CONNECTORS**: function calls
@@ -130,44 +130,34 @@ $  grep pattern file |grep pattern | sort| l less &
 
 
 ## OBJECT-ORIENTED ARCHITECTURE
-- **COMPONENTS**: objects/methods
-- **CONNECTORS**: messages
-
-- OBJECT-ORIENTED TERMINOLOGY
+- #### TERMINOLOGY
     - **object**: an instance of a class
     - **class**: a data type that provides both attributes and operations on those attributes
-    - **e.g.**
+    - #### **example**:
+    ![ex-tt](img/[COEN174]week3c-diagram5.png)
 
-    ![ex-tt](img/[COEN174]week3c-diagram5.png)￼
-
-    
-    > **objects** communicate by sending messages; a message consists of the name of the operation to invoke (i.e., the method), the destination object, any `parameters  w.resize(2)` “messages invoke methods”
-
-
-## INHERITANCE
-- an ability of a subclass to reuse or have access to all attributes and operations of its parent(s)
-- under the idea of subclassing, classes fall into a hierarchical relationship
-- **ex.**
-
-![ex-inherit1](img/[COEN174]week3c-diagram6.png)￼
+    - **objects** communicate by sending messages; 
+    - a message consists of the name of the operation to invoke (i.e., the method), the destination object, any `parameters w.resize(2)` “messages invoke methods”
 
 
-- A SUBCLASS MAY 
+- #### INHERITANCE
+    - an ability of a subclass to reuse or have access to all attributes and operations of its parent(s)
+    - under the idea of subclassing, classes fall into a hierarchical relationship
+    - ####**example**: INHERITANCE
+![ex-inherit1](img/[COEN174]week3c-diagram6.png)
+    - A SUBCLASS MAY 
     - **keep** existing behavior
-    - **add** behavior
-    - override behavior
-- BUT MAY NOT 
-    - **remove** behavior
-- **ex.**:
-
-![ex-inherit2](img/[COEN174]week3c-diagram7.png)￼
-
-￼
-- **ex.**: *binomial class*
-
-![ex-inherit2](img/[COEN174]week3c-diagram8.png)￼
-
-
+        - **add** behavior
+        - override behavior
+    - BUT MAY NOT 
+        - **remove** behavior
+    - #### **example**: *penguin*
+![ex-inherit2](img/[COEN174]week3c-diagram7.png)
+    
+    - #### **example**: *binomial class*
+![ex-inherit2](img/[COEN174]week3c-diagram8.png)
+- **COMPONENTS**: objects/methods
+- **CONNECTORS**: messages
 - **BAD**: objects must know the identity of another object in order to communicate with it (HIGH / TIGHT COUPLING)
 - **CONSTRAINT**: objects are responsible for maintaining the integrity of its representation through encapsulation.
 
