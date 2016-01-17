@@ -18,12 +18,12 @@
 - in English, a requirement is something that absolutely must happen
 - in engineering, it is negotiable and can be prioritized
 
-## FUNCTIONAL REQUIREMENTS
+#### FUNCTIONAL REQUIREMENTS
 - define what must be done
 - usually be answered as true / false
 - usually stated as "*the system will …* "
 
-## NON-FUNCTIONAL REQUIREMENTS
+#### NON-FUNCTIONAL REQUIREMENTS
 - define the manner in which the functional requirements need to be achieved
 - usually assumed by a degree of satisfaction
 - usually stated as "*the system will be …* “
@@ -71,6 +71,7 @@
 - have people with different skills
 - need to impose a team structure
 
+--------------------
 ## CH. 6: MAIN POINTS
 - What are requirements?
 - What are the steps in requirements engineering?
@@ -132,7 +133,7 @@
 - more technical than HIGH-LEVEL REQUIREMENT
 
 ![low-level requirement](img/[COEN174]week1c-diagram1.png)
-> DIFFERENT SYSTEM = DIFFERENT REQUIREMENTS
+> different SYSTEM = different REQUIREMENTS
 
 - **physical environment**
     - Where will system run?: One location? / Several?
