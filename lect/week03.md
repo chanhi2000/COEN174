@@ -4,7 +4,7 @@
 
 ## ENTITY-RELATIONSHIP DIAGRAM
 - #### **example**: senior deign projects
-![ex-sendes](img/[COEN174]week3a-diagram1.png)
+![fig01](week03/[COEN174]week3a-diagram1.png)
 
 
 ## BEHAVIOR-BASED MODELS
@@ -16,7 +16,7 @@
     - sequence diagrams [UML]
 
 - ##**example**: Standard Copier
-![copier](img/[COEN174]week3a-diagram2.png)
+![fig02](week03/[COEN174]week3a-diagram2.png)
 
 
 ## CH.7 MAINPOINTS
@@ -26,7 +26,7 @@
 
 
 ## WHAT IS DESIGN?
-- requirements are the “what”; design is the “how”
+- requirements are the “**what**”; design is the “**how**”
 - design is the process of **taking a problem** and **coming up with a solution** that meets established professional practices.
 > **engineering** = putting science into practice paying attention to efficiency, economy, and safety. 
 
@@ -42,7 +42,7 @@
 - in practice, this does not happen, so we will use TRACEABILITY TABLES
 - **ex**: TRACEABILITY TABLE
 
-![ex-traceability-table](img/[COEN174]week3a-diagram3.png)
+![fig03](week03/[COEN174]week3a-diagram3.png)
 
 
 ## SOFTWARE ARCHITECTURES
@@ -62,7 +62,7 @@
 
 ## DATA-CENTRIC ARCHITECTURES
 
-![ex-dca1](img/[COEN174]week3b-diagram1.png)
+![fig04](week03/[COEN174]week3b-diagram1.png)
 > **repository**: CLIENTs are active; DATA are passive
 
 > **blackboard**: CLIENTs are passive; DATA are active
@@ -73,12 +73,12 @@
 - **GOOD**: easy for clients to come and go
 - **BAD**: single point of failure
 
-![ex-dca2](img/[COEN174]week3b-diagram2.png)
+![fig05](week03/[COEN174]week3b-diagram2.png)
 
 ## DATA-FLOW ARCHITECTURE 
 - **test ex**. UNIX SHELL
 
-![ex-unix](img/[COEN174]week3b-diagram3.png)
+![fig06](week03/[COEN174]week3b-diagram3.png)
 
 ```bash
 $  grep pattern file |grep pattern | sort| l less &
@@ -101,17 +101,17 @@ $  grep pattern file |grep pattern | sort| l less &
 - **lower layers** are closer to the machine
 - **higher layers** provide more abstraction
 
-![ex-os](img/[COEN174]week3c-diagram1.png)
+![fig07](week03/[COEN174]week3c-diagram1.png)
 
 - **ex**. OS
 
-![ex-os](img/[COEN174]week3c-diagram2.png)
+![fig08](week03/[COEN174]week3c-diagram2.png)
 
 
 - **ex**. ISO/OSI 
 
 
-![ex-iso](img/[COEN174]week3c-diagram3.png)
+![fig09](week03/[COEN174]week3c-diagram3.png)
 
 
 - **COMPONENTS**: LAYERS
@@ -122,7 +122,7 @@ $  grep pattern file |grep pattern | sort| l less &
 
 ## CALL AND RETURN
 
-![ex-call-and-return](img/[COEN174]week3c-diagram4.png)
+![fig10](week03/[COEN174]week3c-diagram4.png)
 
 - **COMPONENTS**: functions
 - **CONNECTORS**: function calls
@@ -134,7 +134,7 @@ $  grep pattern file |grep pattern | sort| l less &
     - **object**: an instance of a class
     - **class**: a data type that provides both attributes and operations on those attributes
     - #### **example**:
-    ![ex-tt](img/[COEN174]week3c-diagram5.png)
+    ![fig11](week03/[COEN174]week3c-diagram5.png)
 
     - **objects** communicate by sending messages; 
     - a message consists of the name of the operation to invoke (i.e., the method), the destination object, any `parameters w.resize(2)` “messages invoke methods”
@@ -144,7 +144,7 @@ $  grep pattern file |grep pattern | sort| l less &
     - an ability of a subclass to reuse or have access to all attributes and operations of its parent(s)
     - under the idea of subclassing, classes fall into a hierarchical relationship
     - ####**example**: INHERITANCE
-![ex-inherit1](img/[COEN174]week3c-diagram6.png)
+    ![fig12](week03/[COEN174]week3c-diagram6.png)
     - A SUBCLASS MAY 
     - **keep** existing behavior
         - **add** behavior
@@ -152,10 +152,11 @@ $  grep pattern file |grep pattern | sort| l less &
     - BUT MAY NOT 
         - **remove** behavior
     - #### **example**: *penguin*
-![ex-inherit2](img/[COEN174]week3c-diagram7.png)
+    ![fig13](week03/[COEN174]week3c-diagram7.png)
     
     - #### **example**: *binomial class*
-![ex-inherit2](img/[COEN174]week3c-diagram8.png)
+    ![fig14](week03/[COEN174]week3c-diagram8.png)
+
 - **COMPONENTS**: objects/methods
 - **CONNECTORS**: messages
 - **BAD**: objects must know the identity of another object in order to communicate with it (HIGH / TIGHT COUPLING)

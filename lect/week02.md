@@ -16,7 +16,7 @@
 - R1 is 2x as important as R3
 - R3 is 2x as important as R2
 - **Q**: *What is the overall importance of each?* [on MIDTERM]
-![ahp-example](img/[COEN174]week2a-diagram1.png)
+![fig01](week01/[COEN174]week2a-diagram1.png)
 
 
 ## REQUIREMENT: DEFINITIONS, PROTOTYPING, REVIEWS
@@ -56,9 +56,10 @@
 - **a user case** describes how a “user” interacts with the system to accomplish some goal or perform some action
 - #### **example**: user case diagram
     
-    ![user-case](img/[COEN174]week2a-diagram2.png)
+    ![fig02](week02/[COEN174]week2a-diagram2.png)
     
-    ![user-case](img/[COEN174]week2a-diagram3.png)
+    ![fig03](week02/[COEN174]week2a-diagram3.png)
+
 - The diagram itself is not enough
 - we also need **narrative**
     - **name**
@@ -88,15 +89,15 @@
 - shows the dynamic behavior of the system (or part of the system)
 - looks much like a flowchart, but also has notation for concurrency
 - #### **example**: baking a cake
-![baking-a-cake1](img/[COEN174]week2c-diagram1.png)
-![baking-a-cake2](img/[COEN174]week2c-diagram2.png)
+![fig04](week02/[COEN174]week2c-diagram1.png)
+![fig05](week02/[COEN174]week2c-diagram2.png)
 - ####**example**: login
-![login](img/[COEN174]week2c-diagram3.png)
+![fig06](week02/[COEN174]week2c-diagram3.png)
 
 ## SWIMLANE DIAGRAMS
 - activity diagrams but with responsibilities assigned
 - #### **example**: baking a cake (again)
-![baking-a-cake3](img/[COEN174]week2c-diagram4.png)
+![fig07](week02/[COEN174]week2c-diagram4.png)
 
 ## DATA-BASED MODEL
 - identify data and their relationships
@@ -109,15 +110,15 @@
 - models how data is transformed as it flows through the system
 - decomposed hierarchically
 - #### **example:** a compiler
-![dfd-compiler](img/[COEN174]week2c-diagram5.png)
+![fig08](week02/[COEN174]week2c-diagram5.png)
 
 ## ENTITY-RELATIONSHIP DIAGRAM (ERD)
 - entities = objects
 - #### **example**: generic one
-![erd1](img/[COEN174]week2c-diagram6.png)
+![fig09](week02/[COEN174]week2c-diagram6.png)
 
 - #### **example**: book
-![erd2](img/[COEN174]week2c-diagram7.png)
+![fig10](week02/[COEN174]week2c-diagram7.png)
 
 - #### **example**: school
-![erd3](img/[COEN174]week2c-diagram8.png)
+![fig11](week02/[COEN174]week2c-diagram8.png)

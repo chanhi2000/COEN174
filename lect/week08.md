@@ -13,8 +13,6 @@
 - each function (executed) covered at least once.
 ￼
 
-OTHER WAYS OF FINDING ERRORS
-
 ## INSPECTIONS / REVIEWS
 * A REVIEW is simply any process that uses humans to examine a software artifact for the purpose of finding errors
 * A INSPECTION is just a more detailed review

@@ -99,10 +99,10 @@
     - I / O
     - pre-conditions / post-conditions
 - i.e. **classical phase of engineering**
-![classical phase of engineering](img/[COEN174]week1b-diagram1.png)
+![fig01](week01/[COEN174]week1b-diagram1.png)
 
 - i.e. **requirements process**
-![requirements process](img/[COEN174]week1b-diagram2.png)
+![fig02](week01/[COEN174]week1b-diagram2.png)
     - **elicitation**: talk to the customers about what they want
     - **analysis**: go back and tabulate, sort, prioritise (i.e. analyse)
     - **definition**: write it up informally
@@ -132,7 +132,7 @@
 ## LOW-LEVEL REQUIREMENT
 - more technical than HIGH-LEVEL REQUIREMENT
 
-![low-level requirement](img/[COEN174]week1c-diagram1.png)
+![fig03](week01/[COEN174]week1c-diagram1.png)
 > different SYSTEM = different REQUIREMENTS
 
 - **physical environment**

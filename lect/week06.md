@@ -85,7 +85,7 @@ there is none.
 
 ## V PROCESS MODEL
 - EX (classical phase of software engineering)
-![fig01](img/[COEN174]week6b-fig01.png)￼
+![fig01](week05/[COEN174]week6b-fig01.png)￼
 - **VERIFICATION** *ANSWERS THE QUESTION*
     - “did we build the **product right**?
 - **VALIDATION** *ANSWERS THE QUESTION*
@@ -136,9 +136,9 @@ there is none.
 	- slightly more practical answer: WHEN ALL BUGS ARE FOUND
 	- more practical answer: WHEN WE EXECUTE ALL THE TESTING
 	- Problem Discovery
-￼	![fig02](img/[COEN174]week6c-fig01.png)
+￼	![fig02](week05/[COEN174]week6c-fig01.png)
     > A better approach: FAULT SEEDING
-￼	![fig03](img/[COEN174]week6c-fig02.png)
+￼	![fig03](week05/[COEN174]week6c-fig02.png)
     - **ASSUMPTION**: distribution across code /functionality of seeded faults matches closely that of actual faults
         - **Q**:  How might we know the latter.
         - **A**:  Metrics to infer which modules are more complex and therefore prone to errors
