@@ -2,17 +2,17 @@
 
 ## CLASS-BASED MODELING
 - EX.
-![fig01](img/[COEN174]week5a-fig01.png)
+![fig01](/[COEN174]week5a-fig01.png)
 
 we want to add a new class, $$x5$$, with methods $$m1$$, $$m2$$, $$m3$$, $$m4$$, and a new method $$m8$$. How should we do this?
 - **solution #1**:
-![fig02](img/[COEN174]week5a-fig02.png)
+![fig02](week05/[COEN174]week5a-fig02.png)
 - **issue #1**: two copies of *m4*
 - **solution #2**:
-![fig03](img/[COEN174]week5a-fig03.png)
+![fig03](week05/[COEN174]week5a-fig03.png)
 - **issue #2**: turns a compile-time into a run-time error
 - **solution #3**
-![fig04](img/[COEN174]week5a-fig04.png)
+![fig04](week05/[COEN174]week5a-fig04.png)
 ￼
 
 ## DESIGN CONCEPTS
@@ -155,7 +155,7 @@ we want to add a new class, $$x5$$, with methods $$m1$$, $$m2$$, $$m3$$, $$m4$$,
     complexity is more related to the structure of a program than to its text
 - we need to use **FLOW GRAPHS**:
 - EX.
-![fig05](img/[COEN174]week5c-fig01.png)
+![fig05](week05/[COEN174]week5c-fig01.png)
 - TWO QUANTITIES
     - $$N$$: # of NODES (7 in ex.)
     - $$E$$: # of EDGES (8 in ex.)
