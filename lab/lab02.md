@@ -24,5 +24,5 @@ Based on our current understanding of the problem, the following are the require
 - #### Recommended
 	- The system will have access to courses and their contents (units, requirement fulfillments, etc.)
 
-### Design Constraints}
+### Design Constraints
 - The system must run on Design Center's server at Santa Clara University

@@ -1,0 +1,7 @@
+## Chapter 12. Lessons Learned
+
+The core objective of this software engineering experience is to produce a solution that meets all the requirements.  On the process of development, there were a number of emerging issues and challenges and had to come up with answers accordingly.  In the end, the best way to acquire all the requirements is the consistent communication with the customer.
+
+In addition to communication, another crucial activities in software engineering process was the communication within the team.  For instance, in the initial phase of implementation, some of us weren’t certain about which tasks they are in change.  Taking initiative to start from the scratch was difficult with little amount of experience and knowledge in handling tools and programming languages.  Consequently, the time conflict occurred and we could not deliver a working solution in time for intermediate system review.  
+
+Lastly, while meeting all the requirements, keeping the system simple and succinct for both customers’ and developers’ perspective were essential but difficult.  We learned that failure to do it was heavily related to the lack of communication with both the customer(s) and team members.  The aspect of simplicity must be maintained primarily for the customer’s satisfaction.  Also, it is maintained for the developers to understand the requirements, test the system with ease.  Hence, implementation with less coupling and more cohesion offered the the optimal way to evaluate the system’s intelligence part by part.
